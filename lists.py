@@ -1,2 +1,5 @@
 def make_list(n):
-    pass
+    result = []
+    for i in range(n):
+        result.append(i * 2)
+    return result
