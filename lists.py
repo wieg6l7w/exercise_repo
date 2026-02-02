@@ -1,2 +1,2 @@
 def make_list(n):
-    pass
+    return [i * 2 for i in range(n)]
